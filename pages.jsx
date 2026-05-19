@@ -129,9 +129,7 @@ function HomePage({ toast }) {
         </section>
       </div>
 
-      <footer className="footer">
-        © 2026 Prompt Gallery · Mehr bilan O'zbekistonda tayyorlandi · <a href="#">Aloqa</a>
-      </footer>
+      <window.Footer />
     </div>
   );
 }
@@ -189,9 +187,7 @@ function SchoolPage() {
         )}
       </window.Modal>
 
-      <footer className="footer">
-        © 2026 Prompt Gallery · <a href="#">Yangi darslar bilan tanishing</a>
-      </footer>
+     <window.Footer />
     </div>
   );
 }
@@ -251,9 +247,7 @@ function BlogPage() {
         )}
       </window.Modal>
 
-      <footer className="footer">
-        © 2026 Prompt Gallery · <a href="#">Mualliflar uchun yozish</a>
-      </footer>
+      <window.Footer />
     </div>
   );
 }
