@@ -385,5 +385,5 @@ function Footer() {
 
 Object.assign(window, {
   BrandMark, Navbar, useToast, Chip,
-  PromptCard, LessonCard, BlogCover, BlogCard, Modal
+  PromptCard, LessonCard, BlogCover, BlogCard, Modal, Footer
 });
