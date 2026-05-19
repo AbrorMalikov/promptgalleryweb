@@ -23,9 +23,9 @@ function HomePage({ toast }) {
     <div className="page">
       <section className="hero">
         <div className="eyebrow">
-          O'zbekistondagi eng katta AI promptlar to'plami
+          O'zbekistondagi keng AI promptlar to'plami
         </div>
-        <h1>Promptlar kutubxonasi</h1>
+        <h1>Prompt gallery - promptlar kutubxonasi</h1>
         <p className="sub">
           ChatGPT, Claude, Gemini va boshqa AI modellar uchun sinab ko'rilgan, professional
           promptlar. Tanlang, nusxalang va bir bosishda ishga tushiring.
@@ -93,7 +93,7 @@ function HomePage({ toast }) {
 
         {/* SEO block */}
         <section className="seo-block glass">
-          <h2>Prompt Gallery — O'zbekistondagi eng katta prompt kutubxonasi</h2>
+          <h2>Prompt Gallery — O'zbekistondagi keng prompt kutubxonasi</h2>
           <div className="seo-cols">
             <p>
               <strong>Prompt Gallery</strong> — bu sun'iy intellekt bilan ishlashni soddalashtirgan
