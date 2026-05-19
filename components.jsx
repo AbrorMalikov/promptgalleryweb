@@ -287,6 +287,102 @@ function Modal({ open, onClose, children }) {
 
 }
 
+// ---------- Footer (site-wide) ----------
+function Footer() {
+  return (
+    <footer className="site-footer">
+      <div className="shell">
+        <div className="footer-top">
+          {/* Brand column */}
+          <div className="footer-col footer-brand-col">
+            <a className="brand" href="#" onClick={(e) => e.preventDefault()}>
+              <BrandMark />
+              <div className="brand-name">Prompt <span>Gallery</span></div>
+            </a>
+            <p className="footer-tagline">
+              O'zbekistondagi birinchi AI promptlar kutubxonasi. ChatGPT, Claude, Gemini va boshqa modellar uchun tayyor, sinab ko'rilgan promptlar.
+            </p>
+            <div className="footer-social">
+              <a href="https://t.me/abrorbekmalikov" target="_blank" rel="noopener noreferrer" className="social-link" title="Telegram">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+              </a>
+            </div>
+          </div>
+
+          {/* Sahifalar */}
+          <div className="footer-col">
+            <h4 className="footer-col-title">Sahifalar</h4>
+            <ul className="footer-links">
+              <li><a href="#">Bosh sahifa</a></li>
+              <li><a href="#">Prompt School</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+
+          {/* Prompt sohalari */}
+          <div className="footer-col">
+            <h4 className="footer-col-title">Prompt sohalari</h4>
+            <ul className="footer-links">
+              <li><a href="#">Marketing</a></li>
+              <li><a href="#">Dasturlash</a></li>
+              <li><a href="#">SEO</a></li>
+              <li><a href="#">Biznes</a></li>
+              <li><a href="#">Dizayn</a></li>
+              <li><a href="#">Kontent yozish</a></li>
+            </ul>
+          </div>
+
+          {/* AI modellar */}
+          <div className="footer-col">
+            <h4 className="footer-col-title">AI modellar</h4>
+            <ul className="footer-links">
+              <li><a href="#">ChatGPT</a></li>
+              <li><a href="#">Claude</a></li>
+              <li><a href="#">Gemini</a></li>
+              <li><a href="#">Midjourney</a></li>
+              <li><a href="#">Copilot</a></li>
+              <li><a href="#">Perplexity</a></li>
+            </ul>
+          </div>
+
+          {/* Aloqa */}
+          <div className="footer-col">
+            <h4 className="footer-col-title">Aloqa</h4>
+            <ul className="footer-links">
+              <li>
+                <a href="tel:+998977838253">
+                  <span className="footer-icon">📞</span> +998 97 783 82 53
+                </a>
+              </li>
+              <li>
+                <a href="https://t.me/abrorbekmalikov" target="_blank" rel="noopener noreferrer">
+                  <span className="footer-icon">✈️</span> Telegram orqali aloqa
+                </a>
+              </li>
+            </ul>
+            <a href="#" className="btn btn-cta footer-cta">
+              <span className="icn">💬</span> Murojaat uchun
+            </a>
+          </div>
+        </div>
+
+        {/* Pastki qism */}
+        <div className="footer-bottom">
+          <div className="footer-copy">
+            © 2026 Prompt Gallery · Mehr bilan O'zbekistonda tayyorlandi
+          </div>
+          <div className="footer-powered">
+            Powered by{" "}
+            <a href="https://seo-first.uz" target="_blank" rel="noopener noreferrer">
+              SEO First
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}
+
 Object.assign(window, {
   BrandMark, Navbar, useToast, Chip,
   PromptCard, LessonCard, BlogCover, BlogCard, Modal
